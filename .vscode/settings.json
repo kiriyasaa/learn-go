@@ -1,0 +1,23 @@
+{
+    "workbench.colorTheme": "Material Theme Darker High Contrast",
+    "explorer.openEditors.visible": 0,
+    "editor.fontSize": 16,
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.wordWrap": "on",
+    "editor.minimap.enabled": false,
+    "[go]": {
+        "editor.insertSpaces": true,
+        "editor.formatOnSave": true, //turn this off if you not want the autocorrect
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        }
+    },
+    "code-runner.runInTerminal": true,
+    "window.zoomLevel": 0,
+    "go.lintOnSave": "package",
+    "go.vetOnSave": "package",
+    "go.vetFlags": [
+        "-all",
+        "-shadow"
+    ],
+}

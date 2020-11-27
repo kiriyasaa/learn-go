@@ -11,7 +11,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/tirzasrwn/learngo/09-go-type-system/05-defined-types/03-underlying-types/weights"
+	"github.com/learn-go/09-go-type-system/05-defined-types/03-underlying-types/weights"
 )
 
 type (
