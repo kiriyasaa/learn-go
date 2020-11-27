@@ -1,0 +1,36 @@
+// Copyright © 2018 Inanc Gumus
+// Learn Go Programming Course
+// License: https://creativecommons.org/licenses/by-nc-sa/4.0/
+//
+// For more tutorials  : https://learngoprogramming.com
+// In-person training  : https://www.linkedin.com/in/inancgumus/
+// Follow me on twitter: https://twitter.com/inancgumus
+
+package main
+
+import (
+	"fmt"
+	"os"
+)
+
+// ---------------------------------------------------------
+// EXERCISE: Count the Arguments
+//
+//  Print the count of the command-line arguments
+//
+// INPUT
+//  bilbo balbo bungo
+//
+// EXPECTED OUTPUT
+//  There are 3 names.
+// ---------------------------------------------------------
+
+func main() {
+	// UNCOMMENT & FIX THIS CODE
+	count := len(os.Args) - 1 // the "len(os.Args)" is to count how many input
+	// remember the first Args, i mean Args[0] is the path of the file
+	// so it's need to reduce by 1
+
+	// UNCOMMENT IT & THEN DO NOT TOUCH THIS CODE
+	fmt.Printf("There are %d names.\n", count)
+}
